@@ -2,34 +2,38 @@
 # Telco Offer, Load & Transaction Analysis
 
 <p align="center">
-  <img src="https://github.com/NISSAN40499/Sales-Intelligence-SQL-Project-From-Trends-to-Segments/blob/main/images/Mysql%20image.jpg" width="450">
+  <img src="https://github.com/NISSAN40499/Telco-offer-load-transaction-Data-Analysis/blob/main/image/image_2025-10-19_171822907.png" width="550">
 </p>
 
-
-**Project Overview**
+---
+## Project Overview
 This project focuses on analyzing Telco offer, load, and transaction data to generate actionable insights on product sales, revenue, customer behavior, and operational performance. Using SQL and BigQuery, the project identifies top-selling products by bundle type, calculates total revenue and average selling prices, evaluates cancellation and complaint rates, and tracks customer purchase behavior across divisions. Advanced SQL techniques such as CTEs and window functions are implemented to optimize query performance and analytical depth.
 
 **Live Demo**
 [View Analysis in BigQuery](#)  *(replace with actual link if available)*
 
-**Technologies Used**
+## Technologies Used
 
 * **Backend / Analysis:** SQL, BigQuery
 * **Data Handling & Storage:** Google BigQuery Dataset
 * **Reporting / Visualization:** Optional export to Excel or Power BI
 
-**Why These Technologies?**
+## Why These Technologies?
 
 * **SQL & BigQuery**: Efficiently handles large-scale telecom transaction data (~50k+ records) with complex analytical queries.
 * **CTEs & Window Functions**: Allow ranking, partitioning, and advanced aggregations to extract meaningful insights.
 * **Optional Excel/Power BI**: For visualization, dashboards, and reporting for non-technical stakeholders.
 
-**Project Structure**
+## Project Structure
 
 ```
 Telco-SQL-Analysis/
 │
-├── README.md                # Project documentation
+├── image
+├── License
+├── README.md
+├── telco.pdf
+├── telco_code_sql               
 ├── 01_most_ordered_products.sql
 ├── 02_least_ordered_bundles.sql
 ├── 03_total_revenue_avg_price.sql
@@ -44,7 +48,7 @@ Telco-SQL-Analysis/
 
 Each SQL file contains queries for a specific analysis objective, structured for readability and modular execution.
 
-**Features**
+## Features
 
 * Identify most and least ordered products per bundle type and division.
 * Calculate total revenue, average selling price, and product contribution to overall revenue.
@@ -54,14 +58,14 @@ Each SQL file contains queries for a specific analysis objective, structured for
 * Assess service quality: cancellation and complaint rates, common complaint reasons.
 * Determine product popularity by validity period and top-selling products in key divisions.
 
-**Challenges Solved**
+## Challenges Solved
 
 * Handling multiple analytical queries over large datasets efficiently using SQL and BigQuery.
 * Ranking and partitioning data to identify top products per bundle type/division.
 * Calculating advanced metrics such as potential revenue loss, average purchase frequency, and percentage contribution of products to total revenue.
 * Structuring queries for readability and modular execution for easy future expansion.
 
-**Future Improvements**
+## Future Improvements
 
 * Integrate with **Power BI or Tableau dashboards** for interactive visualization and reporting.
 * Automate daily/weekly updates to track dynamic trends in real-time.
