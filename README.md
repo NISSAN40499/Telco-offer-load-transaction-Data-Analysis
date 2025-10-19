@@ -9,8 +9,9 @@
 ## Project Overview
 This project focuses on analyzing Telco offer, load, and transaction data to generate actionable insights on product sales, revenue, customer behavior, and operational performance. Using SQL and BigQuery, the project identifies top-selling products by bundle type, calculates total revenue and average selling prices, evaluates cancellation and complaint rates, and tracks customer purchase behavior across divisions. Advanced SQL techniques such as CTEs and window functions are implemented to optimize query performance and analytical depth.
 
-**Live Demo**
-[View Analysis in BigQuery](#)  *(replace with actual link if available)*
+**Queries**
+[View the full SQL code here](https://github.com/NISSAN40499/Telco-offer-load-transaction-Data-Analysis/blob/main/telco_code_sql.pdf/Code.md)
+
 
 ## Technologies Used
 
@@ -34,16 +35,31 @@ Telco-SQL-Analysis/
 ├── README.md
 ├── telco.pdf
 ├── telco_code_sql               
-├── 01_most_ordered_products.sql
-├── 02_least_ordered_bundles.sql
-├── 03_total_revenue_avg_price.sql
-├── 04_highest_revenue_product.sql
-├── 05_max_min_discount_commission.sql
-├── 06_customer_analysis.sql
-├── 07_delivery_and_order_time.sql
-├── 08_cancellation_complaint_analysis.sql
-├── 09_product_popularity.sql
-└── 10_top_products_by_division.sql
+├── 01_Which Product is Most Ordered Per Bundle Type?
+├── 02_Which Bundle Type is Least Ordered in Each Division?
+├── 03_How Many Products are There per Bundle Type?
+├── 04_Total Revenue and Average Selling Price per Product, Bundle Type, Operator, and Division
+├── 05_Product with Highest Number of Sales & Total Revenue
+├── 06_Product & Bundle Type Contributing Highest Percentage of Total Revenue
+├── 07_Maximum & Minimum Discount and Commission per Product
+├── 08_Operator & Division with Highest Avg Discount Across Products
+├── 09_Unique Customers and Repeat Buyers
+├── 10_Customer with Highest Orders / Total Spending
+├── 11_Average Purchase Frequency of Customers by Bundle Type
+├── 12_Most Orders by Hour of the Day
+├── 13_Average Fulfillment / Delivery Time per Operator and Division
+├── 14_Average Delivery Time per Division
+├── 15_Cancellation Rate & Complaint Rate per Operator & Division
+├── 16_Most Common Complaint Reasons
+├── 17_Total Orders per Division
+├── 18_Division with Highest Sales & Transactions
+├── 19_Order Status Percentage per Operator & Division
+├── 20_Products Offered by Each Operator
+├── 21_Product Popularity by Validity Period
+├── 22_Advanced Product Popularity using CTE & Window Function
+├── 23_Products with Most Complaints & Cancellations
+├── 24_Potential Revenue Loss Due to Cancellation
+└── 25_Top 3 or 5 Most-Selling Products/Bundles in Key Divisions
 ```
 
 Each SQL file contains queries for a specific analysis objective, structured for readability and modular execution.
@@ -75,4 +91,4 @@ Each SQL file contains queries for a specific analysis objective, structured for
 
 ---
 
-If you want, I can also **make a more “fancy” version with numeric insights sprinkled in**, so it reads like a polished portfolio-ready GitHub README that recruiters will notice. Do you want me to do that?
+Thanks for reading...
