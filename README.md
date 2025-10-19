@@ -1,6 +1,9 @@
 
 # Telco Offer, Load & Transaction Analysis
 
+<p align="center">
+  <img src="https://github.com/NISSAN40499/Sales-Intelligence-SQL-Project-From-Trends-to-Segments/blob/main/images/Mysql%20image.jpg" width="450">
+</p>
 
 
 **Project Overview**
